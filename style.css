@@ -1,0 +1,57 @@
+header{
+    text-align: center;
+    margin: 50px;
+    font-size:  2rem;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+}
+.rock{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 100ms;
+}
+.paper{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 100ms;
+}
+.scissors{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 100ms;
+}
+.rock:hover{
+    transform: scale(1.2);
+}
+.paper:hover{
+    transform: scale(1.2);
+}
+.scissors:hover{
+    transform: scale(1.2);
+}
+.results{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.result-score{
+    margin-left: .1rem;
+    font-size: 1rem;
+    color: black;
+}

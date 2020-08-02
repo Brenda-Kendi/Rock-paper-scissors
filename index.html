@@ -7,12 +7,31 @@
     </head>
     <body>
         <header>Rock Paper Scissors</header>
-        
+        <div class="choices">
+            <button class="rock">👊</button>
+            <button class="paper">🤚</button>
+            <button class="scissors">✌</button>
+            </div>
+            <div class="results">
+                <div>
+                    You:
+                    <span class="result-score">0</span>
+                </div>
+                <div>
+                    computer:
+                    <span class="result-score">0</span>
+                </div>
+            </div>
+
+
+        </div>
+
     </body>
     <script>
         let userChoice=prompt("Rock, Paper or Scissors?")
 
 let computerChoice=Math.random();
+
 if (computerChoice < 0.34) {
     computerChoice = "rock";
 } else if(computerChoice >0.34&&computerChoice<0.67) {
