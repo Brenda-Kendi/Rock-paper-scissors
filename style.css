@@ -41,17 +41,3 @@ header{
 .scissors:hover{
     transform: scale(1.2);
 }
-.results{
-    margin-top: 1rem;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
-    font-size: 1rem;
-}
-.result-score{
-    margin-left: .1rem;
-    font-size: 1rem;
-    color: black;
-}
